@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+    background-color: rgb(128, 89, 245);
+}
+
+.logo1{
+    width: 60px;
+    height: 20px;
+    margin: 10px 0 0 0;
+}
+
+#menu-h ul{
+    list-style: none;    
+}
+
+#menu-h ul li{
+    display:inline-block;
+    color:whitesmoke;
+    padding: 0 10px;
+    margin: 10px 0 0 0; 
+}
+
+#menu-h ul li:hover{
+    background-color: blue;
+}
+
+
+#busca{
+    margin: 10px 0 0 0;
+}
+
+#lupa{
+    width: 15px;
+    height: 15px;   
+}
+
+
+/* Container */
+
+.container1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 5px;
+    height: 661px;
+    background-color:#DAE5F8;
+}
+
+ /* Seção 1 (Esquerda) */
+
+.section1{
+    width: 180px;
+    height: 500px;
+    background-color: rgb(255, 248, 248);
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 2px 0px 0px #000000;
+}
+.fotoperfil{
+    display: block;
+    margin: 8px auto 8px auto;
+    width: 140px;
+    height: 160px;
+    
+}
+.info{
+    padding-left: 8px;
+}
+
+.iconeleft{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding-left: 1px;
+    
+}
+.tituloleft{
+    display: inline-block;
+    padding-left: 1px;
+    margin: 0 0 0 2px;
+    
+}
+
+ /* Seção 2 (Meio) */
+
+.section2{
+    width:900px;
+    height: 580px;
+    background-color: rgb(255, 248, 248);
+    box-shadow: 3px 2px 0px 0px #000000;
+    margin-top: 10px;
+    border-radius: 10px 33px 10px 10px;
+}
+
+.meio1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 900px;
+    height: 40px;
+    margin-top: 3px;
+    border-bottom: 1px solid black;
+}
+
+.meio1 img{
+    width: 20px;
+    height: 20px;
+}
+.meio1 figcaption{
+    font-size: 13px;
+}
+
+.meio2{
+
+}
+
+.meio2 img{
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    height: 150px;
+}
+
+#p1{
+    text-align: center;
+    font-size: 40px;
+}
+#p2{
+    text-indent: 50px;
+    text-align: justify;
+    padding: 0px 10px;
+    font-size: 17px;
+    font-weight:bold
+}
+
+
+/* Seção 3 (Direita) */
+
+.section3{
+    width: 250px;
+    height: 580px;
+    background-color: rgb(255, 248, 248);
+    box-shadow: 3px 2px 0px 0px #000000;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.direita1{
+    width: 250px;
+    height: 15px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.direita2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap: 8px;
+    width: 250px;
+    height: 210px;
+    padding-top: 23px;
+    border-bottom: 2px solid black;
+}
+
+.direita2 img{
+    width: 70px;
+    height: 70px;
+}
+
+.direita2 figcaption{
+    text-align: center;
+}
+
+.direita2 figure{
+    background-color: #DAE5F8;
+}
+
+.direita3{
+    width: 250px;
+    height: 15px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.direita4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap: 8px;
+    width: 250px;
+    height: 234px;
+    padding-top: 23px;
+    border-bottom: 2px solid black;
+}
+
+.direita4 img{
+    width: 70px;
+    height: 70px;
+}
+
+.direita4 figcaption{
+    text-align: center;
+    font-size: 11px;
+    
+}
+
+.direita4 a{
+    text-decoration: none;
+}
+
+.direita4 figure{
+    background-color: #DAE5F8; 
+}
+
+
+/* Rodapé */
+footer{
+    height: 20px;
+    background-color:#DAE5F8;
+}
+
